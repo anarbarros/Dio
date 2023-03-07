@@ -27,9 +27,9 @@ public class minhaClasse {
             numero = Integer.parseInt(linha);
             
             
-          if(i % 2 == 0){
+          if(numero % 2 == 0){
             par++;
-          } else if(i % 2 != 0){
+          } else if(numero % 2 != 0){
             impar++;
           }
           
